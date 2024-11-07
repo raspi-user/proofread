@@ -7,13 +7,17 @@
   }
 </style>
 
-# proofread
+<h2>Abstract</h2>
+<p>
+This BRC proposes an extensible format for including zero-knowledge proofs (ZKPs) in specific key linkage revelations as defined in BRC-69 Method 2. While BRC-94 addresses limitations of BRC-69 Method 1 through a Schnorr-based ZKP, there is currently no standardized method for provable specific key linkage claims in Method 2. Given the rapid evolution of ZKP technologies, this specification introduces a <span class="highlight-add">proof-type</span> <span class="highlight-remove">proof type</span> enumeration scheme to accommodate future proof mechanisms. By defining a flexible <span class="highlight-add">proof-type</span> <span class="highlight-remove">proof type</span> field, wallets and applications can adopt and support <span class="highlight-add">new</span> ZKP schemes as they become available, eventually converging on standardized formats.
+</p>
 
-Example with Embedded HTML in Markdown Original Text:
-By defining a flexible <span class="highlight-red">proof type</span> field, we allow for the inclusion of various ZKP schemes as they become available, ensuring that wallets and applications can adopt and support them over time, eventually converging on standardized formats.
+<h3>Changed line:</h3>
+<p>
+By defining a flexible <span class="highlight-add">proof-type</span> <span class="highlight-remove">proof type</span> field, wallets and applications can adopt and support <span class="highlight-add">new</span> ZKP schemes as they become available, eventually converging on standardized formats.
+</p>
 
-Changed Line:
-By defining a flexible <span class="highlight-green">proof-type</span> field, wallets and applications can adopt and support new ZKP schemes as they become available, eventually converging on standardized formats.
-
-Reason for Change:
-Improved consistency in terminology by using the hyphenated form “proof-type,” which matches the style used throughout the document.
+<h3>Reason:</h3>
+<p>
+This rewording clarifies that wallets and applications are the adopters and emphasizes the goal of eventual standardization.
+</p>
