@@ -1,9 +1,9 @@
 <style>
   .highlight-remove {
-    background-color: rgba(255, 0, 0, 0.0); /* Red with 30% opacity */
+    background-color: rgba(255, 0, 0, 0.1); /* Red with 30% opacity */
   }
   .highlight-add {
-    background-color: rgba(0, 255, 0, 0.0); /* Green with 30% opacity */
+    background-color: rgba(0, 255, 0, 0.1); /* Green with 30% opacity */
   }
 </style>
 
