@@ -1,9 +1,9 @@
 <style>
   .highlight-remove {
-    background-color: rgba(255, 0, 0, 0.1); /* Red with 30% opacity */
+    background-color: rgba(255, 0, 0, 0.1); /* Red with 10% opacity */
   }
   .highlight-add {
-    background-color: rgba(0, 255, 0, 0.1); /* Green with 30% opacity */
+    background-color: rgba(0, 255, 0, 0.1); /* Green with 10% opacity */
   }
 </style>
 
@@ -20,4 +20,8 @@ By defining a flexible <span class="highlight-add">proof-type</span> field, wall
 <h3>Reason:</h3>
 <p>
 This rewording clarifies that wallets and applications are the adopters and emphasizes the goal of eventual standardization.
+</p>
+<p>
+<b>Words changed:</b> <span class="highlight-add">proof-type</span> <br>
+<b>Reason:</b> Corrected grammar.
 </p>
